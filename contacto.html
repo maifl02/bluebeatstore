@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blue Beat Store</title>
+
+<style>
+/* --- Estilos generales --- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #F6E6F5;
+}
+
+/* --- Contenedor principal --- */
+#principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #F6E6F5;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* --- Encabezado --- */
+header {
+  background-color: #D1B8DB;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* --- Menú de navegación --- */
+nav {
+  background-color: #D6C5E2;
+}
+
+/* --- Lista principal --- */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* --- Elementos principales del menú --- */
+nav ul li {
+  position: relative;
+}
+
+/* --- Enlaces principales --- */
+nav ul li a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+/* --- Efecto al pasar el mouse --- */
+nav ul li a:hover {
+  background-color: #CCA1DD;
+}
+
+/* --- Submenús --- */
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #CCA1DD;
+  min-width: 180px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 0 0 5px 5px;
+}
+
+/* --- Elementos del submenú --- */
+nav ul li ul li a {
+  padding: 12px 20px;
+}
+
+/* --- Mostrar submenú al pasar el mouse --- */
+nav ul li:hover ul {
+  display: block;
+}
+
+/* --- Efecto al pasar sobre subcategoría --- */
+nav ul li ul li a:hover {
+  background-color: #CCA1DD;
+}
+
+/* --- Sección de contenido --- */
+section {
+  padding: 40px;
+  text-align: center;
+  background-color: #F6E6F5;
+}
+
+section h2 {
+  color: #CCA1DD;
+  margin-bottom: 20px;
+}
+
+section p {
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+</style>
+<link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="principal">
+
+  <!-- Encabezado -->
+  <header>Blue Beat Store</header>
+
+  <!-- Menú desplegable -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+
+      <li><a href="#">Sobre nosotros</a>
+        <ul>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </li>
+
+      <li><a href="productos.html">Productos</a>
+        <ul>
+          <li><a href="promociones.html">Promociones</a></li>
+			<li><a href="galeria.html">Galeria</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Sección de contenido -->
+  <section>
+    <h2>Contacto&nbsp;</h2>
+    <p>
+    <img src="contacto.png" width="775" height="301" alt=""/>
+	 </p>
+    <div class="izquierdo">Estamos para ayudarte y resolver tus dudas, puedes encontrarnos en los siguientes espacios.</div>
+    <div class="derecho">
+      <p>En nuestra página de Instagram puedes conocer más precios y productos.&nbsp;</p>
+      <p>Realiza tu cotización en cualquier red social!&nbsp;&nbsp;</p>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <footer>Blue Beat Store</footer>
+  </section>
+
+</div>
+
+</body>
+</html>

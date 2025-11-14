@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.izquierdo {
+    width: 500px;
+    float: left;
+    padding-top: 25px;
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.derecho {
+    width: 500px;
+    float: right;
+    padding-top: 25px;
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.clear {
+    clear: both;
+}
+footer {
+    color: #FFFFFF;
+    background-color: #C397E1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+body p {
+}
+a:link {
+}
+a:visited {
+    font-weight: bold;
+}
+ul li a {
+}
+ul li a {
+}
+ul li a {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section #video1 {
+    width: 560px;
+    height: 315px;
+    position: absolute;
+    z-index: 2;
+}
+#principal section h2 {
+}
+#principal section #video2 {
+    width: 560px;
+    height: 315px;
+    position: absolute;
+    z-index: 1;
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+#principal section h2 {
+}
+a:link {
+    font-weight: bold;
+}
+#principal section #thumbnails {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+}
